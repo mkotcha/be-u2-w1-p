@@ -1,10 +1,8 @@
 package org.emmek.beu2w1p.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
+import net.datafaker.Faker;
 
 import java.util.List;
 import java.util.UUID;
@@ -15,6 +13,7 @@ import java.util.UUID;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder(builderClassName = "BuildingBuilder")
 public class Building {
     @OneToMany(mappedBy = "building")
     @ToString.Exclude
@@ -31,5 +30,11 @@ public class Building {
         this.stations = stations;
     }
 
+    public static class BuildingBuilder {
+        Faker faker = new Faker();
+        String name = faker.address().streetName();
+        String address = faker.address().streetAddress();
+        String city = faker.address().city();
+    }
 
 }

@@ -12,7 +12,7 @@ import java.util.UUID;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+@Builder(builderClassName = "Builder")
 public class User {
     @OneToMany(mappedBy = "user")
     @ToString.Exclude
@@ -25,5 +25,7 @@ public class User {
     private String userName;
     private String email;
 
+    public static class Builder {
 
+    }
 }

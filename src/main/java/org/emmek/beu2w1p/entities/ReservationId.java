@@ -12,5 +12,4 @@ public class ReservationId implements Serializable {
     private User user;
     private LocalDate date;
 
-
 }
