@@ -34,4 +34,9 @@ public class StationService implements StationDao {
     public List<Station> findByTypeAndCity(StationType type, String city) {
         return stationRepo.findByTypeAndCity(type, city);
     }
+
+    @Override
+    public Station getRandStation() {
+        return stationRepo.getRandStation();
+    }
 }

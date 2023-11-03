@@ -14,4 +14,6 @@ public interface StationDao {
     List<Station> findAll();
 
     List<Station> findByTypeAndCity(StationType type, String city);
+
+    Station getRandStation();
 }

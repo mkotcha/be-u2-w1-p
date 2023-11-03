@@ -1,10 +1,7 @@
 package org.emmek.beu2w1p.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDate;
 
@@ -15,13 +12,14 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @IdClass(ReservationId.class)
+@Builder
 public class Reservation {
     @ManyToOne
     @JoinColumn(name = "station_id")
     private Station station;
     @Id
-    @ManyToOne
-    @JoinColumn(name = "user_id")
+    @ManyToOne(cascade = CascadeType.MERGE, optional = false)
+    @JoinColumn(name = "user_id", nullable = false)
     private User user;
     @Id
     private LocalDate date;

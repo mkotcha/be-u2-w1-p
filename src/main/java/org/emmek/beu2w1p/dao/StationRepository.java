@@ -15,6 +15,8 @@ public interface StationRepository extends JpaRepository<Station, UUID> {
     @Query("SELECT s FROM Station s WHERE s.type = :type AND s.building.city = :city")
     List<Station> findByTypeAndCity(@Param("type") StationType type, @Param("city") String city);
 
+    @Query("SELECT s FROM Station s ORDER BY RANDOM() LIMIT 1")
+    Station getRandStation();
 
     List<Station> findAll();
 }

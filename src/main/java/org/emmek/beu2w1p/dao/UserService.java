@@ -13,4 +13,9 @@ public class UserService implements UserDao {
     public void save(User user) {
         userRepo.save(user);
     }
+
+    @Override
+    public User getRandUser() {
+        return userRepo.getRandUser();
+    }
 }

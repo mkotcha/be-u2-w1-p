@@ -24,6 +24,7 @@ public class User {
     private UUID id;
     @Column(nullable = false)
     private String userName;
+    private String name;
     private String email;
 
     public static class UserBuilder {
