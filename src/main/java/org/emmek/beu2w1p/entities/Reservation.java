@@ -8,13 +8,12 @@ import lombok.Setter;
 
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "reservations")
 @Getter
 @Setter
-@Entity
 @AllArgsConstructor
 @NoArgsConstructor
-
-
 @IdClass(ReservationId.class)
 public class Reservation {
     @ManyToOne

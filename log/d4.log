@@ -2465,3 +2465,14 @@ Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "us
 2023-11-03T17:04:11.937+01:00  INFO 234158 --- [main] o.h.m.internal.PojoInstantiatorImpl      : HHH000182: No default (no-argument) constructor for class: org.emmek.beu2w1p.entities.ReservationId (class must be instantiated by Interceptor)
 2023-11-03T17:04:12.085+01:00  INFO 234158 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2023-11-03T17:04:12.302+01:00  INFO 234158 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 2.941 seconds (process running for 3.448)
+2023-11-03T17:07:12.368+01:00  INFO 236942 --- [main] o.e.b.ReservationManagementApplication   : Starting ReservationManagementApplication using Java 17.0.8 with PID 236942 (/home/kutch/IdeaProjects/be-u2-w1-p/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-03T17:07:12.371+01:00 DEBUG 236942 --- [main] o.e.b.ReservationManagementApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-03T17:07:12.372+01:00  INFO 236942 --- [main] o.e.b.ReservationManagementApplication   : The following 1 profile is active: "dev"
+2023-11-03T17:07:13.315+01:00  INFO 236942 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-03T17:07:13.368+01:00  INFO 236942 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-03T17:07:13.371+01:00  INFO 236942 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-03T17:07:14.221+01:00  WARN 236942 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): org.emmek.beu2w1p.entities.ReservationId
+2023-11-03T17:07:14.221+01:00  WARN 236942 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.emmek.beu2w1p.entities.ReservationId
+2023-11-03T17:07:14.731+01:00  INFO 236942 --- [main] o.h.m.internal.PojoInstantiatorImpl      : HHH000182: No default (no-argument) constructor for class: org.emmek.beu2w1p.entities.ReservationId (class must be instantiated by Interceptor)
+2023-11-03T17:07:14.899+01:00  INFO 236942 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-03T17:07:15.116+01:00  INFO 236942 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 3.33 seconds (process running for 3.78)

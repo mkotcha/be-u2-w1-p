@@ -10,12 +10,14 @@ import java.util.List;
 import java.util.UUID;
 
 @Entity
+@Table(name = "buildings")
 @Getter
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Building {
     @OneToMany(mappedBy = "building")
+    @ToString.Exclude
     List<Station> stations;
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
@@ -24,6 +26,10 @@ public class Building {
     private String name;
     private String address;
     private String city;
+
+    public void setStations(List<Station> stations) {
+        this.stations = stations;
+    }
 
 
 }
