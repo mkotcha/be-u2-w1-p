@@ -30,6 +30,28 @@ public class ReservationRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+//        stationDao.findByTypeAndCity(StationType.MEETINGROOM, "Pescara").forEach(System.out::println);
+//        stationDao.findAll().forEach(System.out::println);
+//        stationDao.findByType(StationType.PRIVATE).forEach(System.out::println);
+//        stationDao.findByBuildingCity("Pescara").forEach(System.out::println);
+//        stationDao.findByTypeAndBuildingCity(StationType.PRIVATE, "Pescara").forEach(System.out::println);
+//        stationDao.getAvailable(LocalDate.now()).forEach(System.out::println);
+        Station station = stationDao.getRandStation();
+        if (stationDao.isAvailable(station, LocalDate.now())) {
+            Reservation reservation = Reservation.builder()
+                    .station(station)
+                    .user(userDao.getRandUser())
+                    .date(LocalDate.now()).build();
+            reservationDao.save(reservation);
+            log.info("Reservation " + reservation + " created");
+        } else {
+            log.info("Station " + station.getId() + " is not available");
+        }
+    }
+
+    void buildDb() {
+
+
         Faker faker = new Faker();
         Building building;
         Station station;
@@ -47,7 +69,7 @@ public class ReservationRunner implements CommandLineRunner {
             station = Station.builder().building(building).build();
             stationDao.save(station);
         }
-        
+
         for (int i = 0; i < 50; i++) {
             user = User.builder().build();
             userDao.save(user);
@@ -61,6 +83,7 @@ public class ReservationRunner implements CommandLineRunner {
                     .date(now.plusDays(days)).build();
             reservationDao.save(reservation);
         }
+
 
     }
 

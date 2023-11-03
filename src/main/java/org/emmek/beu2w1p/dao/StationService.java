@@ -6,6 +6,7 @@ import org.emmek.beu2w1p.exceptions.ItemNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
 
@@ -27,7 +28,7 @@ public class StationService implements StationDao {
 
     @Override
     public List<Station> findAll() {
-        return null;
+        return stationRepo.findAll();
     }
 
     @Override
@@ -39,4 +40,31 @@ public class StationService implements StationDao {
     public Station getRandStation() {
         return stationRepo.getRandStation();
     }
+
+    @Override
+    public List<Station> findByType(StationType type) {
+        return stationRepo.findByType(type);
+    }
+
+    @Override
+    public List<Station> findByBuildingCity(String city) {
+        return stationRepo.findByBuildingCity(city);
+    }
+
+    @Override
+    public List<Station> findByTypeAndBuildingCity(StationType type, String city) {
+        return stationRepo.findByTypeAndBuildingCity(type, city);
+    }
+
+    @Override
+    public List<Station> getAvailable(LocalDate date) {
+        return stationRepo.getAvailable(date);
+    }
+
+    @Override
+    public boolean isAvailable(Station station, LocalDate now) {
+        return stationRepo.isAvailable(station, now);
+    }
+
+
 }
