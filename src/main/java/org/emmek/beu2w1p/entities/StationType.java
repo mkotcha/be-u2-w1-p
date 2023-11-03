@@ -1,7 +1,7 @@
 package org.emmek.beu2w1p.entities;
 
 public enum StationType {
-    PRIVARE,
+    PRIVATE,
     OPENSPACE,
     MEETINGROOM
 

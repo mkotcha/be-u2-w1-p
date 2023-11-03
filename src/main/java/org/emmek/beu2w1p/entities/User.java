@@ -2,6 +2,7 @@ package org.emmek.beu2w1p.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
+import net.datafaker.Faker;
 
 import java.util.List;
 import java.util.UUID;
@@ -26,6 +27,9 @@ public class User {
     private String email;
 
     public static class UserBuilder {
-
+        Faker faker = new Faker();
+        String userName = faker.internet().username();
+        String name = faker.name().fullName();
+        String email = faker.internet().emailAddress();
     }
 }
