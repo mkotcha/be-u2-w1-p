@@ -13,4 +13,5 @@ public interface BuildingDao {
 
     public List<Building> findByCity(String city);
 
+    Building getRandBuilding();
 }

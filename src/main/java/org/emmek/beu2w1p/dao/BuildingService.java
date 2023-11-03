@@ -1,7 +1,6 @@
-package org.emmek.beu2w1p.entities;
+package org.emmek.beu2w1p.dao;
 
-import org.emmek.beu2w1p.dao.BuildingDao;
-import org.emmek.beu2w1p.dao.BuildingRepository;
+import org.emmek.beu2w1p.entities.Building;
 import org.emmek.beu2w1p.exceptions.ItemNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -28,4 +27,11 @@ public class BuildingService implements BuildingDao {
     public List<Building> findByCity(String city) {
         return null;
     }
+
+    @Override
+    public Building getRandBuilding() {
+        return buildingRepo.getRandBuilding();
+    }
+
+
 }
