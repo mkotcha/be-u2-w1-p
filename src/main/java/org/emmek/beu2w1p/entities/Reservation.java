@@ -9,6 +9,7 @@ import java.time.LocalDate;
 @Table(name = "reservations")
 @Getter
 @Setter
+@ToString
 @AllArgsConstructor
 @NoArgsConstructor
 @IdClass(ReservationId.class)

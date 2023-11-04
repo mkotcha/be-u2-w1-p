@@ -43,7 +43,7 @@ public class ReservationRunner implements CommandLineRunner {
                     .user(userDao.getRandUser())
                     .date(LocalDate.now()).build();
             reservationDao.save(reservation);
-            log.info("Reservation " + reservation + " created");
+            log.info("Reservation \n" + reservation + "\ncreated");
         } else {
             log.info("Station " + station.getId() + " is not available");
         }
