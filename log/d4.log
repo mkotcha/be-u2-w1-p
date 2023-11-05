@@ -19,3 +19,91 @@ created
 2023-11-05T13:56:37.993+01:00  INFO 348528 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
 Reservation(station=Station(id=67e97952-a723-4951-8653-e5c40a4d9aac, description=Ipsa explicabo pariatur quae ut aut id debitis., type=PRIVATE, seats=5, building=Building(id=bbf4a8be-e609-4599-a3a1-dee09df9c7ac, name=Cormier Common, address=40287 Steffanie Glen, city=Maggioberg)), user=User(id=85290c1b-b21c-4b55-806b-f469fbebbf4c, userName=lashawnda.hayes, name=Nathanial Schmeler, email=benny.quitzon@hotmail.com), date=2023-11-05)
 created
+2023-11-05T14:09:55.875+01:00  INFO 356569 --- [main] o.e.b.ReservationManagementApplication   : Starting ReservationManagementApplication using Java 17.0.8 with PID 356569 (/home/kutch/IdeaProjects/be-u2-w1-p/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:09:55.877+01:00 DEBUG 356569 --- [main] o.e.b.ReservationManagementApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:09:55.878+01:00  INFO 356569 --- [main] o.e.b.ReservationManagementApplication   : The following 1 profile is active: "dev"
+2023-11-05T14:09:59.152+01:00  INFO 356569 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 3.829 seconds (process running for 4.316)
+2023-11-05T14:09:59.321+01:00  INFO 356569 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=f71f8d3a-f9fb-464c-ac7b-e23a5aad8b6c, description=Eum quia quas velit laborum ducimus., type=MEETINGROOM, seats=6, building=Building(id=bc82c061-9775-4212-b9b3-c3749bf2b72a, name=Hugh View, address=64776 Jacobs Hollow, city=Lilyberg)), user=User(id=2b0a3df8-828e-45b1-b785-854ed11d9e63, userName=hollie.adams, name=Ivonne Cronin, email=bradford.larson@hotmail.com), date=2023-11-05)
+created
+2023-11-05T14:11:39.999+01:00  INFO 357708 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 357708 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:11:40.000+01:00 DEBUG 357708 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:11:40.001+01:00  INFO 357708 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:11:43.031+01:00  INFO 357708 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.303 seconds (process running for 4.229)
+2023-11-05T14:11:43.221+01:00  INFO 357708 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=56607b8e-d529-4f59-b900-103dc420f3b4, description=Ullam fuga autem., type=MEETINGROOM, seats=9, building=Building(id=da5768fb-2b25-40fd-9fa4-d96792da6a45, name=Cummings Mall, address=547 Balistreri Plain, city=Pescara)), user=User(id=1dc8aced-fc07-425e-8f67-1a8082243321, userName=loyce.effertz, name=Mr. Gale Bins, email=collen.wyman@gmail.com), date=2023-11-05)
+created
+2023-11-05T14:31:19.819+01:00  INFO 369507 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 369507 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:31:19.820+01:00 DEBUG 369507 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:31:19.821+01:00  INFO 369507 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:31:22.865+01:00  INFO 369507 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.346 seconds (process running for 4.271)
+2023-11-05T14:31:23.043+01:00  INFO 369507 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=241b885f-219f-4d52-9931-80ca257143a3, description=Enim rerum dolore facilis accusantium molestiae., type=MEETINGROOM, seats=18, building=Building(id=bbf4a8be-e609-4599-a3a1-dee09df9c7ac, name=Cormier Common, address=40287 Steffanie Glen, city=Maggioberg)), user=User(id=6c339791-52d0-4625-a47f-2a50a0ee8050, userName=ressie.grimes, name=Gale Bartell Jr., email=louie.brakus@hotmail.com), date=2023-11-05)
+created
+2023-11-05T14:31:42.269+01:00  INFO 369836 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 369836 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:31:42.270+01:00 DEBUG 369836 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:31:42.270+01:00  INFO 369836 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:31:45.292+01:00  INFO 369836 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.32 seconds (process running for 4.301)
+2023-11-05T14:31:45.500+01:00  INFO 369836 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=ffb80b10-cd2f-4e39-b3fb-ac5a410701b4, description=Deleniti perferendis non sint., type=PRIVATE, seats=35, building=Building(id=ecc9e284-33c1-4d33-9fc0-1f60eb5ea184, name=Parisian Fork, address=764 Roberto Estates, city=Port Earnest)), user=User(id=6abba1f5-8960-4335-8747-4dd41d5cd29e, userName=keith.koch, name=John Mante Jr., email=anamaria.pfeffer@yahoo.com), date=2023-11-05)
+created
+2023-11-05T14:32:01.531+01:00  INFO 370113 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 370113 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:32:01.531+01:00 DEBUG 370113 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:32:01.532+01:00  INFO 370113 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:32:04.598+01:00  INFO 370113 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.366 seconds (process running for 4.363)
+2023-11-05T14:32:04.778+01:00  INFO 370113 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=3a92181d-9d35-4d53-9d32-12c8ff583dad, description=Eum eveniet ut enim saepe iure beatae et., type=PRIVATE, seats=11, building=Building(id=275d48d5-888a-437a-a649-6583f0938bf6, name=Tod Dale, address=5131 Johns Place, city=North Faustinoland)), user=User(id=c2a3b734-fe38-4c99-b5a5-620c6652e53c, userName=felipe.ortiz, name=Leonia Klocko, email=houston.balistreri@gmail.com), date=2023-11-05)
+created
+2023-11-05T14:33:35.368+01:00  INFO 371148 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 371148 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:33:35.369+01:00 DEBUG 371148 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:33:35.370+01:00  INFO 371148 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:33:38.772+01:00  INFO 371148 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.714 seconds (process running for 4.797)
+2023-11-05T14:33:38.909+01:00  INFO 371148 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Station 3a92181d-9d35-4d53-9d32-12c8ff583dad is not available
+2023-11-05T14:36:07.318+01:00  INFO 372679 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 372679 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:36:07.319+01:00 DEBUG 372679 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:36:07.320+01:00  INFO 372679 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:36:10.315+01:00  INFO 372679 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.269 seconds (process running for 4.205)
+2023-11-05T14:36:10.428+01:00  INFO 372679 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Station 67e97952-a723-4951-8653-e5c40a4d9aac is not available
+2023-11-05T14:36:43.708+01:00  INFO 373075 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 373075 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:36:43.709+01:00 DEBUG 373075 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:36:43.710+01:00  INFO 373075 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:36:46.724+01:00  INFO 373075 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.315 seconds (process running for 4.333)
+2023-11-05T14:36:46.843+01:00  INFO 373075 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Station f71f8d3a-f9fb-464c-ac7b-e23a5aad8b6c is not available
+2023-11-05T14:37:13.753+01:00  INFO 373450 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 373450 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:37:13.754+01:00 DEBUG 373450 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:37:13.755+01:00  INFO 373450 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:37:16.814+01:00  INFO 373450 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.353 seconds (process running for 4.294)
+2023-11-05T14:37:16.992+01:00  INFO 373450 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=b7fd2274-1b2f-452c-9373-712347b382f8, description=Quo quo ad ipsam exercitationem quisquam., type=OPENSPACE, seats=45, building=Building(id=25250f1d-6fa5-4dff-96e0-5a1cab0fe37b, name=Kohler Knoll, address=5837 Elijah View, city=Pescara)), user=User(id=c0e6491d-e98d-4a8d-ad48-f9684fbf0611, userName=coleman.cruickshank, name=Roosevelt Okuneva Sr., email=stuart.berge@yahoo.com), date=2023-11-05)
+created
+2023-11-05T14:37:47.348+01:00  INFO 373873 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 373873 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:37:47.349+01:00 DEBUG 373873 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:37:47.350+01:00  INFO 373873 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:37:50.272+01:00  INFO 373873 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.208 seconds (process running for 4.172)
+2023-11-05T14:37:50.452+01:00  INFO 373873 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=64b366f5-9182-4d46-a333-246318bab70b, description=Iusto sunt et quod numquam voluptatibus sunt., type=MEETINGROOM, seats=47, building=Building(id=da5768fb-2b25-40fd-9fa4-d96792da6a45, name=Cummings Mall, address=547 Balistreri Plain, city=Pescara)), user=User(id=85290c1b-b21c-4b55-806b-f469fbebbf4c, userName=lashawnda.hayes, name=Nathanial Schmeler, email=benny.quitzon@hotmail.com), date=2023-11-05)
+created
+2023-11-05T14:39:20.823+01:00  INFO 374914 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 374914 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:39:20.824+01:00 DEBUG 374914 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:39:20.824+01:00  INFO 374914 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:39:23.920+01:00  INFO 374914 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.403 seconds (process running for 4.386)
+2023-11-05T14:39:24.096+01:00  INFO 374914 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=5ff6d36a-26f0-417c-a0d6-841378496ea3, description=In officiis voluptatem sint ab., type=OPENSPACE, seats=48, building=Building(id=bc82c061-9775-4212-b9b3-c3749bf2b72a, name=Hugh View, address=64776 Jacobs Hollow, city=Lilyberg)), user=User(id=6c78cd46-e7bb-4fab-8dee-10df88695de4, userName=abdul.bogan, name=Clint Jacobs, email=virgie.hermiston@yahoo.com), date=2023-11-05)
+created
+2023-11-05T14:43:11.501+01:00  INFO 377539 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 377539 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:43:11.502+01:00 DEBUG 377539 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:43:11.503+01:00  INFO 377539 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:43:14.486+01:00  INFO 377539 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.255 seconds (process running for 4.258)
+2023-11-05T14:43:14.599+01:00  INFO 377539 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Station b7fd2274-1b2f-452c-9373-712347b382f8 is not available
+2023-11-05T14:43:29.999+01:00  INFO 377835 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 377835 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:43:29.999+01:00 DEBUG 377835 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:43:30.000+01:00  INFO 377835 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:43:32.955+01:00  INFO 377835 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.244 seconds (process running for 4.239)
+2023-11-05T14:43:33.082+01:00  INFO 377835 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Station 3a92181d-9d35-4d53-9d32-12c8ff583dad is not available
+2023-11-05T14:46:40.966+01:00  INFO 379908 --- [main] .b.ReservationManagementApplicationTests : Starting ReservationManagementApplicationTests using Java 20.0.2 with PID 379908 (started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T14:46:40.966+01:00 DEBUG 379908 --- [main] .b.ReservationManagementApplicationTests : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T14:46:40.967+01:00  INFO 379908 --- [main] .b.ReservationManagementApplicationTests : The following 1 profile is active: "dev"
+2023-11-05T14:46:44.030+01:00  INFO 379908 --- [main] .b.ReservationManagementApplicationTests : Started ReservationManagementApplicationTests in 3.358 seconds (process running for 4.281)
+2023-11-05T14:46:44.215+01:00  INFO 379908 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=5b2aee8b-b5e0-49be-be25-e8ce19227e89, description=Dolores qui est excepturi earum rerum repellat et., type=PRIVATE, seats=12, building=Building(id=fd888b35-f885-41cc-9a95-a249a401367d, name=Karlyn View, address=5945 West Estate, city=Wehnerville)), user=User(id=f08fe762-e249-412b-918e-16a86e66fb7d, userName=latricia.grant, name=Renee Cronin, email=lourdes.labadie@hotmail.com), date=2023-11-05)
+created

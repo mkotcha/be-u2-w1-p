@@ -35,4 +35,6 @@ public class User {
         String name = faker.name().fullName();
         String email = faker.internet().emailAddress();
     }
+
+
 }

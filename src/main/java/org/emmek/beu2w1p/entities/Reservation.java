@@ -24,4 +24,8 @@ public class Reservation {
     private User user;
     @Id
     private LocalDate date;
+
+    public ReservationId getId() {
+        return new ReservationId(user, date);
+    }
 }
