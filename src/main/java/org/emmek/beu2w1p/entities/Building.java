@@ -15,15 +15,18 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder(builderClassName = "BuildingBuilder")
 public class Building {
-    @OneToMany(mappedBy = "building")
+    @OneToMany(mappedBy = "building", cascade = CascadeType.REMOVE)
     @ToString.Exclude
     List<Station> stations;
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "id", nullable = false)
     private UUID id;
+    @Column(nullable = false)
     private String name;
+    @Column(nullable = false)
     private String address;
+    @Column(nullable = false)
     private String city;
 
     public void setStations(List<Station> stations) {

@@ -15,7 +15,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder(builderClassName = "UserBuilder")
 public class User {
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE)
     @ToString.Exclude
     List<Reservation> reservations;
     @Id
@@ -24,7 +24,9 @@ public class User {
     private UUID id;
     @Column(nullable = false)
     private String userName;
+    @Column(nullable = false)
     private String name;
+    @Column(nullable = false)
     private String email;
 
     public static class UserBuilder {

@@ -1,27 +1,21 @@
-2023-11-04T10:56:32.908+01:00  INFO 48295 --- [main] o.e.b.ReservationManagementApplication   : Starting ReservationManagementApplication using Java 17.0.8 with PID 48295 (/home/kutch/IdeaProjects/be-u2-w1-p/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
-2023-11-04T10:56:32.912+01:00 DEBUG 48295 --- [main] o.e.b.ReservationManagementApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
-2023-11-04T10:56:32.914+01:00  INFO 48295 --- [main] o.e.b.ReservationManagementApplication   : The following 1 profile is active: "dev"
-2023-11-04T10:56:35.562+01:00  INFO 48295 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 2.982 seconds (process running for 3.287)
-2023-11-04T10:56:35.678+01:00  INFO 48295 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Station 5b145daa-5016-4278-bddf-6e24d67e6e97 is not available
-2023-11-04T10:57:03.455+01:00  INFO 48744 --- [main] o.e.b.ReservationManagementApplication   : Starting ReservationManagementApplication using Java 17.0.8 with PID 48744 (/home/kutch/IdeaProjects/be-u2-w1-p/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
-2023-11-04T10:57:03.456+01:00 DEBUG 48744 --- [main] o.e.b.ReservationManagementApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
-2023-11-04T10:57:03.457+01:00  INFO 48744 --- [main] o.e.b.ReservationManagementApplication   : The following 1 profile is active: "dev"
-2023-11-04T10:57:05.934+01:00  INFO 48744 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 2.817 seconds (process running for 3.096)
-2023-11-04T10:57:06.040+01:00  INFO 48744 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Station 75486254-85e0-4eb4-8dc4-597b143e069e is not available
-2023-11-04T10:57:39.451+01:00  INFO 49324 --- [main] o.e.b.ReservationManagementApplication   : Starting ReservationManagementApplication using Java 17.0.8 with PID 49324 (/home/kutch/IdeaProjects/be-u2-w1-p/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
-2023-11-04T10:57:39.452+01:00 DEBUG 49324 --- [main] o.e.b.ReservationManagementApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
-2023-11-04T10:57:39.453+01:00  INFO 49324 --- [main] o.e.b.ReservationManagementApplication   : The following 1 profile is active: "dev"
-2023-11-04T10:57:41.806+01:00  INFO 49324 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 2.642 seconds (process running for 2.862)
-2023-11-04T10:57:41.981+01:00  INFO 49324 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation org.emmek.beu2w1p.entities.Reservation@54af9cce created
-2023-11-04T10:58:32.845+01:00  INFO 50094 --- [main] o.e.b.ReservationManagementApplication   : Starting ReservationManagementApplication using Java 17.0.8 with PID 50094 (/home/kutch/IdeaProjects/be-u2-w1-p/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
-2023-11-04T10:58:32.846+01:00 DEBUG 50094 --- [main] o.e.b.ReservationManagementApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
-2023-11-04T10:58:32.847+01:00  INFO 50094 --- [main] o.e.b.ReservationManagementApplication   : The following 1 profile is active: "dev"
-2023-11-04T10:58:35.213+01:00  INFO 50094 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 2.677 seconds (process running for 2.914)
-2023-11-04T10:58:35.371+01:00  INFO 50094 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation Reservation(station=Station(id=a0bd9fd7-52c7-48b6-8b12-010dde043b71, description=Temporibus optio quia dolore enim ab sit., type=MEETINGROOM, seats=23, building=Building(id=bbf4a8be-e609-4599-a3a1-dee09df9c7ac, name=Cormier Common, address=40287 Steffanie Glen, city=Maggioberg)), user=User(id=6c78cd46-e7bb-4fab-8dee-10df88695de4, userName=abdul.bogan, name=Clint Jacobs, email=virgie.hermiston@yahoo.com), date=2023-11-04) created
-2023-11-04T10:59:46.289+01:00  INFO 50931 --- [main] o.e.b.ReservationManagementApplication   : Starting ReservationManagementApplication using Java 17.0.8 with PID 50931 (/home/kutch/IdeaProjects/be-u2-w1-p/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
-2023-11-04T10:59:46.290+01:00 DEBUG 50931 --- [main] o.e.b.ReservationManagementApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
-2023-11-04T10:59:46.291+01:00  INFO 50931 --- [main] o.e.b.ReservationManagementApplication   : The following 1 profile is active: "dev"
-2023-11-04T10:59:49.575+01:00  INFO 50931 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 3.813 seconds (process running for 4.371)
-2023-11-04T10:59:49.779+01:00  INFO 50931 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
-Reservation(station=Station(id=50c4f6af-046e-426d-8acd-b79e5c824303, description=Fugiat adipisci eius expedita., type=MEETINGROOM, seats=46, building=Building(id=bbf4a8be-e609-4599-a3a1-dee09df9c7ac, name=Cormier Common, address=40287 Steffanie Glen, city=Maggioberg)), user=User(id=d7988e2e-f0d4-4e88-81bb-9f8629611fa8, userName=florida.kerluke, name=Bethany Beier, email=erwin.leannon@hotmail.com), date=2023-11-04)
+2023-11-05T13:51:51.836+01:00  INFO 346042 --- [main] o.e.b.ReservationManagementApplication   : Starting ReservationManagementApplication using Java 17.0.8 with PID 346042 (/home/kutch/IdeaProjects/be-u2-w1-p/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T13:51:51.843+01:00 DEBUG 346042 --- [main] o.e.b.ReservationManagementApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T13:51:51.845+01:00  INFO 346042 --- [main] o.e.b.ReservationManagementApplication   : The following 1 profile is active: "dev"
+2023-11-05T13:51:55.168+01:00  INFO 346042 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 3.842 seconds (process running for 4.424)
+2023-11-05T13:51:55.405+01:00  INFO 346042 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=9e103ea6-74d8-4078-ab0c-081b454f9913, description=Iure et officiis voluptatem., type=MEETINGROOM, seats=15, building=Building(id=25250f1d-6fa5-4dff-96e0-5a1cab0fe37b, name=Kohler Knoll, address=5837 Elijah View, city=Pescara)), user=User(id=e841602f-ccee-4cba-b0c8-d78b5234468e, userName=christi.dickens, name=Mr. Genaro Tremblay, email=sergio.beier@hotmail.com), date=2023-11-05)
+created
+2023-11-05T13:55:16.014+01:00  INFO 348012 --- [main] o.e.b.ReservationManagementApplication   : Starting ReservationManagementApplication using Java 17.0.8 with PID 348012 (/home/kutch/IdeaProjects/be-u2-w1-p/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T13:55:16.015+01:00 DEBUG 348012 --- [main] o.e.b.ReservationManagementApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T13:55:16.017+01:00  INFO 348012 --- [main] o.e.b.ReservationManagementApplication   : The following 1 profile is active: "dev"
+2023-11-05T13:55:19.060+01:00  INFO 348012 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 3.535 seconds (process running for 4.038)
+2023-11-05T13:55:19.280+01:00  INFO 348012 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=d733d48e-b082-44ff-a301-620eb566ce74, description=Blanditiis adipisci voluptas consectetur earum omnis., type=PRIVATE, seats=27, building=Building(id=275d48d5-888a-437a-a649-6583f0938bf6, name=Tod Dale, address=5131 Johns Place, city=North Faustinoland)), user=User(id=162370e3-b66d-43da-ad57-5057270466a1, userName=lanora.schmitt, name=Delinda Stamm, email=carmine.toy@gmail.com), date=2023-11-05)
+created
+2023-11-05T13:56:34.294+01:00  INFO 348528 --- [main] o.e.b.ReservationManagementApplication   : Starting ReservationManagementApplication using Java 17.0.8 with PID 348528 (/home/kutch/IdeaProjects/be-u2-w1-p/target/classes started by kutch in /home/kutch/IdeaProjects/be-u2-w1-p)
+2023-11-05T13:56:34.296+01:00 DEBUG 348528 --- [main] o.e.b.ReservationManagementApplication   : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-05T13:56:34.297+01:00  INFO 348528 --- [main] o.e.b.ReservationManagementApplication   : The following 1 profile is active: "dev"
+2023-11-05T13:56:37.763+01:00  INFO 348528 --- [main] o.e.b.ReservationManagementApplication   : Started ReservationManagementApplication in 4.003 seconds (process running for 4.437)
+2023-11-05T13:56:37.993+01:00  INFO 348528 --- [main] o.emmek.beu2w1p.utils.ReservationRunner  : Reservation 
+Reservation(station=Station(id=67e97952-a723-4951-8653-e5c40a4d9aac, description=Ipsa explicabo pariatur quae ut aut id debitis., type=PRIVATE, seats=5, building=Building(id=bbf4a8be-e609-4599-a3a1-dee09df9c7ac, name=Cormier Common, address=40287 Steffanie Glen, city=Maggioberg)), user=User(id=85290c1b-b21c-4b55-806b-f469fbebbf4c, userName=lashawnda.hayes, name=Nathanial Schmeler, email=benny.quitzon@hotmail.com), date=2023-11-05)
 created

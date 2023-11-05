@@ -15,8 +15,8 @@ import java.time.LocalDate;
 @IdClass(ReservationId.class)
 @Builder
 public class Reservation {
-    @ManyToOne
-    @JoinColumn(name = "station_id")
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "station_id", nullable = false)
     private Station station;
     @Id
     @ManyToOne(cascade = CascadeType.MERGE, optional = false)

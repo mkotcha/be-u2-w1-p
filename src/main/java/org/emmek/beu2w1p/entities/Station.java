@@ -23,13 +23,15 @@ public class Station {
     private UUID id;
     private String description;
     @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
     private StationType type;
+    @Column(nullable = false)
     private int seats;
-    @OneToMany(mappedBy = "station")
+    @OneToMany(mappedBy = "station", cascade = CascadeType.REMOVE)
     @ToString.Exclude
     private List<Reservation> reservations;
-    @ManyToOne
-    @JoinColumn(name = "building_id")
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "building_id", nullable = false)
     private Building building;
 
     @Slf4j
